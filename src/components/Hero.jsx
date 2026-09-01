@@ -5,9 +5,6 @@ import { Github, Linkedin } from './BrandIcons';
 const Hero = () => {
   return (
     <section id="about" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-slate-50/50 font-sans">
-      {/* 
-        แชร์ฟอนต์ Plus Jakarta Sans พิมพ์นิยมแต่ดูเป็นธรรมชาติ คุมธีมให้กลมกลืนกับทุกส่วนในพอร์ตโฟลิโอ 
-      */}
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
         .font-sans {
@@ -31,10 +28,9 @@ const Hero = () => {
           Hi, I'm <span className="text-blue-600">Touch.</span>
         </h1>
 
-        {/* Subtitle */}
+        {/* Subtitle - เขียนใหม่ให้ดูเป็นธรรมชาติ ไม่แข็งทื่อเหมือนก๊อป AI มา */}
         <p className="text-lg md:text-xl text-slate-700 max-w-2xl mx-auto mb-10 leading-relaxed font-medium">
-          Junior Full Stack Developer ผู้เปลี่ยนความละเอียดจากสายกฎหมาย (LL.B.) 
-          สู่การสร้าง Web Applications ที่มีประสิทธิภาพด้วย MERN Stack
+          Law graduate turned full-stack developer. I like taking complex, messy problems and turning them into clean, structured web applications that just work.
         </p>
 
         {/* Social Icons */}
